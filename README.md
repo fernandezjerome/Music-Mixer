@@ -8,29 +8,25 @@ Music DJ Application jun 06, 2022
 
 
 
-TO RUN
+# TO RUN
 Simply open the index.html in any modern web browser..
 
-Reason for Application
-This project was designed for Trevor Van Rys for Interactive Media Design at Fanshawe College.
+# Reason for Application
+This project was designed for Trevor Van Rys for Interactive Media Design.
 
-Purpose is to demonstrate the ability to use drag, dragend, dragover, dragstart and to be able to manipulate audio.
+# Purpose is to demonstrate the ability to use drag, dragend, dragover, dragstart and to be able to manipulate audio.
 
-Inspiration
-This project was inspired by Incredibox
+# Inspiration
+This project was inspired by Incredibox.
+![share-incredibox](https://user-images.githubusercontent.com/97752074/171966185-c9533452-0a14-462b-8894-13da8031a301.png)
 
-We also took inspiration from a dj, with music controls with a launch pad.
 
-Our DJ Inspiration
-Inspired by INCREDIOBOX. share-incredibox
 
-Colors
-Colors numbered 1-12 based off of our Yellow, Orange, Pink, and Purple theme.
+# Authors
+Developer - jerome B.fernandez and pawan pandeya
 
-#AB1F67 #DE3766 #F15A22 #F9A01B #932068 #D3147D #EF4023 #F48520 #781B56 #B61D8D #E11E2D #EF6D22
-
-Authors
-Developer - jerome B.fernandez and pawan pandeya Designer - jerome B.fernandez and pawan pandeya
-
-Tools Used
-HTML CSS3 Javascript Markdown
+# Tools Used
+HTML
+CSS3
+Javascript
+Markdown

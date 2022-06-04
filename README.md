@@ -25,10 +25,10 @@ This project was inspired by Incredibox.(https://www.incredibox.com/)
 # Authors
 Developer - jerome B.fernandez and pawan pandeya
 
-# working file link(google drive)
+# working file link(google drive) ex. icons, mp3 and working files
 click-https://drive.google.com/drive/folders/1bWBqOu0ME-MCnZNYjerbBfNepEW70L7n?fbclid=IwAR3pWs7lynGzwSUHfFfAeyIWlfan0F1E_KdTQDkubNib6wgxRAV1_54KjGM
 
-not intend to publish, its just a assignment.
+# Initial Icons for drag and drop
  <img src="images/drag_items.svg" alt=""> 
  
 # Tools Used
@@ -39,7 +39,7 @@ Markdown
 
 
 # MIT liscence
-Copyright <2022> <jerome b. fernandez and pawan pandeya>
+Copyright <2022> <Jerome Fernandez and Pawan Pandeya>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

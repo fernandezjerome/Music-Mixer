@@ -5,7 +5,7 @@ Me and my friend did it as a partner and we tried our best to achieve good marks
 
 <img src="images/mm_notepad.jpg" alt="notepad">
 
-# Music Mixer
+# DATE
 Music DJ Application jun 06, 2022
 
 

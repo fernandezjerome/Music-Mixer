@@ -1,5 +1,7 @@
 # Music-Mixer
-Music Mixer SVG animation
+Music Mixer SVG animation assigned on 2022-06-03.
+We are required to put svg icons and make them accordingly.
+Me and my friend did it as a partner and we tried our best to achieve good marks.
 
 <img src="images/mm_notepad.jpg" alt="notepad">
 

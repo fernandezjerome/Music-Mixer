@@ -30,6 +30,10 @@ HTML
 CSS3
 Javascript
 Markdown
+# Instruments used
+![icon1 (1)](https://user-images.githubusercontent.com/97752074/171968202-16163d40-8e9c-471c-93d6-75e4a4340eaf.svg)
+![icon2 (1)](https://user-images.githubusercontent.com/97752074/171968207-a8cd5f6f-3c85-4e42-8793-7e62cdce9f0b.svg)
+
 # MIT liscence
 Copyright <2022> <jerome b. fernandez and pawan pandeya>
 

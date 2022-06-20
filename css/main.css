@@ -10,10 +10,13 @@ body {
 }
 
 .drop-zone {
-	width: 100%;
-  height: 100%;
+	/* width: 100%; */
+  /* height: 100%; */
+  /* background-image: url("../images/draggable1.svg"); */
+  background-repeat: no-repeat;
+   height: 4.446rem;
   border: thin dashed white;
-  float: left;
+  /* float: left; */
 	position: relative;
 }
 

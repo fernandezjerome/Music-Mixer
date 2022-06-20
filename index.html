@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+
+ 
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>SVG Animations By Jerome Fernandez</title>
+    <title>Music Mixer</title>
 </head>
 <body class="site">
     <h1 class="hidden">SVG Animaitons</h1>
@@ -17,36 +15,29 @@
   
     <main id="content" class="main">
 
-        <section>
-           
+        <section>        
             <div class="one-item">
                 <div>
-                   <img src="images/mainhero.svg" alt="">                   
+                   <img src="images/mainhero.svg" alt="">
                 </div>
-       
+           
+                <div id="resetButton">
+                    <button class="resetButton">Reset</button>
+                    <button class="restartButton">Restart</button></div>
+                </div> 
             </div>                                                    
         </section>  
       
         <section>           
             <div class="eight-items puzzle-board">
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-                <div class="drop-zone">                 
-                </div>
-   
-                                                     
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>                         
             </div>                                                    
         </section>  
 
@@ -54,37 +45,22 @@
            
             <div class="one-item">
                 <div>
-                   <img src="/images/audience.svg" alt="">                   
+                   <img src="images/audience.svg" alt="">                   
                 </div>              
             </div>                                                    
         </section>  
 
-        <section>           
-            <div class="eight-items">
-                <div>
-                    <img src="images/draggable1.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable2.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable3.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable4.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable5.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable6.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable7.svg" alt="">                                     
-                </div>
-                <div>
-                    <img src="images/draggable8.svg" alt="">                                     
-                </div>
+        <section id="game-boards">           
+            <div class="eight-items puzzle-pieces">
+                <img draggable src="images/draggable1.svg" class="puzzle-image" alt="draggable1">
+                <img draggable src="images/draggable2.svg" class="puzzle-image" alt="draggable2">
+                <img draggable src="images/draggable3.svg" class="puzzle-image" alt="draggable3">
+                <img draggable src="images/draggable4.svg" class="puzzle-image" alt="draggable4">
+                <img draggable src="images/draggable5.svg" class="puzzle-image" alt="draggable5">
+                <img draggable src="images/draggable6.svg" class="puzzle-image" alt="draggable6">
+                <img draggable src="images/draggable7.svg" class="puzzle-image" alt="draggable7">
+                <img draggable src="images/draggable8.svg" class="puzzle-image" alt="draggable8">
+
                                                   
             </div>                                                    
         </section>  
@@ -92,7 +68,8 @@
         
        
         
-        
+     <script src="script/main.js"></script>
+
     </main>
 
 </html>

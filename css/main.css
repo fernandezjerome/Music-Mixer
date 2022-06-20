@@ -24,6 +24,19 @@ body {
 	padding: 0;
 }
 
+.iconZone {
+	padding-top: 10px;
+	/* width: 29%; */
+	/* height: 90%; */
+	text-align: center;
+}
+
+.icon {
+
+	cursor: pointer;
+}
+
+
 
    .hidden {
        display: none;

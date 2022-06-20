@@ -1,21 +1,51 @@
 
 body {
-    margin-top: 20px;
-   margin-top: 30px;
+
    padding: 0;
+   margin: 0;
    color: #626262;
    font-family: 'Sanchez', serif;
    background-color: #000019;
+   font-size: 15px;
+}
+
+.drop-zone {
+	width: 100%;
+  height: 100%;
+  border: thin dashed white;
+  float: left;
+	position: relative;
 }
 
 
+.drop-zone img {
+	width: 100% !important;
+	float: none;
+	position: absolute;
+	padding: 0;
+}
 
+
+.bgColor{
+   background-image: url("../images/draggable1.svg");
+   height: 5rem;
+   background-color: #888888;
+}
 
    .hidden {
        display: none;
    }
 
+   .boxColor {
+      background-color: #e6e6e6;
+      height: 5.5rem;
+      width: 5.5rem;
+   }
 
+   div h2 {
+      color: #e6e6e6;
+      align-items: center;
+   }
 @supports (grid-area: auto) {
 
       .site {
@@ -51,6 +81,15 @@ body {
          justify-content: space-evenly;
          row-gap: 2em;
          column-gap: 2em;
+      }
+
+      .eight-items {
+         display: grid;
+         grid-column: 2 / span 2;
+         grid-template-columns: repeat(8, 1fr);
+         justify-items: center
+         row-gap: 1em;
+         column-gap: 3em;
       }
 
 

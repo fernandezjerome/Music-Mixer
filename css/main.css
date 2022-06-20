@@ -1,3 +1,4 @@
+
 body {
 
    padding: 0;
@@ -22,6 +23,19 @@ body {
 	position: absolute;
 	padding: 0;
 }
+
+.iconZone {
+	padding-top: 10px;
+	/* width: 29%; */
+	/* height: 90%; */
+	text-align: center;
+}
+
+.icon {
+
+	cursor: pointer;
+}
+
 
 
    .hidden {
@@ -84,3 +98,5 @@ body {
          box-shadow: 0px 5px 8px #888888
       }
    }
+
+

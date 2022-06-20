@@ -9,15 +9,29 @@ const instrumentZones = document.querySelectorAll('.iconZone'),
 	
 
 
-	function allowDrag(event) {
-		console.log('started draggin me');
-		event.dataTransfer.setData('draggedEl', this.id);
+	function dragStart(event) {
+		let zone = event.target.parentNode;
+		event.dataTransfer.setData("text/plain", this.id);
+		if (zone.classList.contains("hasPiece")) {
+		    zone.classList.remove("hasPiece");
+		}
+		if (zone.classList.contains("playing")) {
+			zone.classList.remove("playing");
+		}
 	}
 
 	function allowDragOver(event) {
 		event.preventDefault();
-		console.log('started draggin over me');
 	}
+	}
+
+	function setInstruments(event) {
+		pieces.forEach((piece, index) => { 
+		instruments[index].src = `images/${piece}.svg`;
+		instruments[index].id =`${piece}`; 
+	});
+	}
+
 
 	function allowDrop(event) {
 		event.preventDefault();		

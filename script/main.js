@@ -63,8 +63,10 @@
 	    currentInstrument.classList.add('hasPiece');
 	}
 
+	window.addEventListener('load', setInstruments);
 
-	pzlPieces.forEach(piece => piece.addEventListener('dragstart', allowDrag));
+	resetButton.addEventListener('click', reset);
+	restartButton.addEventListener('click', restart);
 
 	dropZones.forEach(zone => zone.addEventListener('dragover', allowDragOver));
 	dropZones.forEach(zone => zone.addEventListener('drop', allowDrop));

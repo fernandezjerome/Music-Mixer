@@ -21,11 +21,12 @@
 			zone.classList.remove("playing");
 		}
 	}
-
+	
 	function allowDragOver(event) {
 		event.preventDefault();
 	}
-	}
+
+
 
 	function setInstruments(event) {
 		pieces.forEach((piece, index) => { 

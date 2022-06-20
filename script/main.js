@@ -34,11 +34,15 @@ const instrumentZones = document.querySelectorAll('.iconZone'),
 
 
 	function allowDrop(event) {
-		event.preventDefault();		
-		if (this.children.length >= 1) { return;}
-		let droppedElId = event.dataTransfer.getData('draggedEl');
-		this.appendChild(document.querySelector(`#${droppedElId}`));
+		let zone = event.target;
+		if (zone.classList.contains("hasPiece")) { return false }
+		let currentPiece = event.dataTransfer.getData("text/plain", this.id);
+		let currentInstrument = document.querySelector(`#${currentPiece}`);
+		zone.appendChild(document.querySelector(`#${currentPiece}`));
+		zone.classList.add('hasPiece');
+	    currentInstrument.classList.add('hasPiece');
 	}
+
 
 	pzlPieces.forEach(piece => piece.addEventListener('dragstart', allowDrag));
 

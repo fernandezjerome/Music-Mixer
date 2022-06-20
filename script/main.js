@@ -66,8 +66,10 @@
 
 	pzlPieces.forEach(piece => piece.addEventListener('dragstart', allowDrag));
 
-	dropZones.forEach(zone => {
-		zone.addEventListener('dragover', allowDragOver);
-		zone.addEventListener('drop', allowDrop);
-	});
+	dropZones.forEach(zone => zone.addEventListener('dragover', allowDragOver));
+	dropZones.forEach(zone => zone.addEventListener('drop', allowDrop));
+	dropZones.forEach(zone => zone.addEventListener('drop', playSound));
+	instrumentZones.forEach(zone => zone.addEventListener('dragover', allowDragOver));
+	instrumentZones.forEach(zone => zone.addEventListener('drop', allowDrop));
+	instrumentZones.forEach(zone => zone.addEventListener('drop', stopSound));
 })();

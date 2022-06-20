@@ -1,7 +1,11 @@
 (() => {
 
-	let pzlPieces = document.querySelectorAll('.puzzle-pieces img'),
-		dropZones = document.querySelectorAll('.drop-zone');
+const instrumentZones = document.querySelectorAll('.iconZone'), 
+	instruments = document.querySelectorAll('.instruments img'), 
+	dropZones = document.querySelectorAll('.drop-zone');
+	const pieces = ["instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6", "instrument7", "instrument8"];
+
+
 	
 
 

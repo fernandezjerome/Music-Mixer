@@ -10,28 +10,73 @@
     <title>Music Mixer</title>
 </head>
 <body class="site">
-    <section>
-        <div class="mike-icon">
-            <svg>            
-                <g>
-                    <path d="M50,50 L50,100 L80,100 L100,120 L110,120 L110,120 L110,120 L110,30 L100,30 L80,50 47,50" stroke-with ="6"></path>
-                    <path d="M120,30 A120,100 0 0,1 120,120" class="sound"></path>
-                    <path d="M130,30 A120,100 0 0,1 130,130" class="sound"></path>
-                    <path d="M140,30 A120,100 0 0,1 140,140" class="sound"></path>
-                    <line x1="40" y1="120" x2="130" y2="10" stroke="red" stroke-width="4" id="mute"></line> 
-                </g>
-            </svg>>
+    <h1 class="hidden">Music Mixer</h1>
 
-        </div>
-        <div class="volume">
-            
-        </div>
+  
+    <main id="content" class="main">
 
-        </div>
-    </section>
+        <section>        
+            <div class="one-item">
+                 <img src="images/mainhero.svg" alt="">
+             </div>                                                    
+        </section>  
+
+        <section>
+            <div id="resetButton" class="three-items">
+                <button class="resetButton">Reset</button>
+                <button class="restartButton">Restart</button>
+            </div>      
+        </section>
+      
+        <section>           
+            <div class="eight-items music-board">
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>                         
+            </div>                                                    
+        </section>  
+
+        <section>
+           
+            <div class="one-item">
+                <div>
+                   <img src="images/audience.svg" alt="">                   
+                </div>              
+            </div>                                                    
+        </section>  
+
+        <section class="instruments">           
+            <div class="eight-items">
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+
+                                                  
+            </div>                                                    
+        </section>  
+
+        <audio data-instrument="instrument1" src="sounds/afterburner_synth_lead.1.mp3"></audio>
+        <audio data-instrument="instrument2" src="sounds/airy_vox_synth.1.mp3"></audio>
+        <audio data-instrument="instrument3" src="sounds/colossus_chord_stabs_02.1.mp3"></audio>
+        <audio data-instrument="instrument4" src="sounds/pop_beaquty_piano.1.mp3"></audio>
+        <audio data-instrument="instrument5" src="sounds/sky_lounge_electric.mp3"></audio>
+        <audio data-instrument="instrument6" src="sounds/transmission_layers.mp3"></audio>
+        <audio data-instrument="instrument7" src="sounds/two_hand.mp3"></audio>
+        <audio data-instrument="instrument8" src="sounds/uptown_club_guitar.mp3"></audio>
+       
         
+     <script src="script/main.js"></script>
 
-<script src="script/main.js"></script>
-</body>
+    </main>
 
 </html>

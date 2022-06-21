@@ -5,7 +5,7 @@
 		instrumentZones = document.querySelectorAll('.iconZone'), 
 		instruments = document.querySelectorAll('.instruments img'), 
 		dropZones = document.querySelectorAll('.drop-zone');
-		const pieces = ["album1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6", "instrument7", "instrument8", "instrument9", "instrument10", "instrument11", "instrument12"];
+		const pieces = ["instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6", "instrument7", "instrument8"];
 
 
 	function setInstruments(event) {
@@ -42,6 +42,29 @@
 
 
 
+	function playSound(event) {
+		let zone = event.target;
+		let currentPiece = event.dataTransfer.getData("text/plain", this.id);
+   		let audioElement = document.querySelector(`audio[data-instrument="${currentPiece}"]`);
+   		let currentInstrument = document.querySelector(`#${currentPiece}`);
+  
+  		if (!audioElement) { return }
+  		if (zone.classList.contains("playing")) { return }
+  	 	
+  	 	audioElement.currentTime = 0;
+  	 	audioElement.play(); 
+  	 	zone.classList.add("playing");
+  	 	currentInstrument.classList.add("playing");
+  	 	audioElement.loop = true;
+
+  	 	return audioElement;
+  	} 
+
+  	function stopSound(event) {
+  		let currentPiece = event.dataTransfer.getData("text/plain", this.id);
+   		let audioElement = document.querySelector(`audio[data-instrument="${currentPiece}"]`);
+  		audioElement.pause();
+  	}
 
 
   function reset() {

@@ -36,7 +36,19 @@ body {
 	cursor: pointer;
 }
 
+.bottomDiv{
+   position:relative;
+   bottom:3rem;
+   left:42rem;
+}
 
+.f-left {
+   float: left;
+}
+
+.f-right {
+   float: right;
+}
 
    .hidden {
        display: none;

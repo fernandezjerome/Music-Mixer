@@ -21,6 +21,7 @@ bugs, etc… any design improvements that need to be made)
 # some previews
 ![image](https://user-images.githubusercontent.com/97752074/177414147-16056fd8-e7d0-4f6f-8232-c1cd9aa84c8a.png)
 ![image](https://user-images.githubusercontent.com/97752074/177414238-7d1dc4d4-aaca-49ee-8027-89c5fa28d021.png)
+#  Drag it here
 ![image](https://user-images.githubusercontent.com/97752074/177414292-adba4f8f-7c54-4e8c-81c6-416fb9de9881.png)
 # Restart and reset button.
 ![image](https://user-images.githubusercontent.com/97752074/177414338-d049b131-c1e1-4a92-bd20-e4c9f0bb4048.png)

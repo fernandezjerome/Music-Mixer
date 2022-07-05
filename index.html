@@ -4,47 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+
+ 
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>SVG Animations By Jerome Fernandez</title>
+    <title>Music Mixer</title>
 </head>
 <body class="site">
-    <h1 class="hidden">SVG Animaitons</h1>
+    <h1 class="hidden">Music Mixer</h1>
 
   
     <main id="content" class="main">
 
-        <section class="why">
+        <section>        
+            <div class="one-item">
+                 <img src="images/mainhero.svg" alt="">
+             </div>                                                    
+        </section>  
 
+        <section>
+            <div id="resetButton" class="three-items">
+                <button class="resetButton">Reset</button>
+                <button class="restartButton">Restart</button>
+            </div>      
+        </section>
+      
+        <section>           
+            <div class="eight-items music-board">
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>
+                <div class="drop-zone"></div>                         
+            </div>                                                    
+        </section>  
+
+        <section>
            
             <div class="one-item">
-                <div class="why-us-img">
-                   <img src="images/Music Mixer.svg" alt="">                   
-                </div>
-            </div>
-
-            <div class="two-items">
-
-                <div class="why-us-img">
-                    <img src="images/drag_items.svg" alt="">                   
-                 </div>
-                 
-                <div class="why-us-img">
-                    <img src="images/drag_items_blank.svg" alt="">                   
-                 </div>
-  
-
-            </div>
-                
-             
-
+                <div>
+                   <img src="images/audience.svg" alt="">                   
+                </div>              
+            </div>                                                    
         </section>  
+
+        <section class="instruments">           
+            <div class="eight-items">
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+              <div class="iconZone"> <img src="" class="icon" alt=""></div>
+
+                                                  
+            </div>                                                    
+        </section>  
+
+        <audio data-instrument="instrument1" src="sounds/afterburner_synth_lead.1.mp3"></audio>
+        <audio data-instrument="instrument2" src="sounds/airy_vox_synth.1.mp3"></audio>
+        <audio data-instrument="instrument3" src="sounds/colossus_chord_stabs_02.1.mp3"></audio>
+        <audio data-instrument="instrument4" src="sounds/pop_beaquty_piano.1.mp3"></audio>
+        <audio data-instrument="instrument5" src="sounds/sky_lounge_electric.mp3"></audio>
+        <audio data-instrument="instrument6" src="sounds/transmission_layers.mp3"></audio>
+        <audio data-instrument="instrument7" src="sounds/two_hand.mp3"></audio>
+        <audio data-instrument="instrument8" src="sounds/uptown_club_guitar.mp3"></audio>
        
         
-        
+     <script src="script/main.js"></script>
+
     </main>
 
 </html>

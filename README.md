@@ -26,6 +26,10 @@ bugs, etc… any design improvements that need to be made)
 # Restart and reset button.
 ![image](https://user-images.githubusercontent.com/97752074/177414338-d049b131-c1e1-4a92-bd20-e4c9f0bb4048.png)
 
+# language used
+css
+html
+js
 # MIT liscence
 Copyright <2022> <Jerome Fernandez and Pawan Pandeya>
 

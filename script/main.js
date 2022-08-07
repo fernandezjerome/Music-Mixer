@@ -1,5 +1,6 @@
 (() => {
-
+	const information = document.querySelector('.instructions');
+	const toggle1 = document.querySelector('#info');
 	const resetButton = document.querySelector('.resetButton');
 	const restartButton = document.querySelector('.restartButton');
 	const instrumentZones = document.querySelectorAll('.iconZone'); 
@@ -8,13 +9,16 @@
 	const pieces = ["instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6", "instrument7", "instrument8"];
 
 
+	toggle1.addEventListener("click", () => {
+		information.classList.toggle("question");
+	      });
+
 	function setInstruments(event) {
 		pieces.forEach((piece, index) => { 
 		instruments[index].src = `images/${piece}.svg`;
 		instruments[index].id =`${piece}`; 
 	});
 	}
-
 
 	function dragStart(event) {
 		let zone = event.target.parentNode;
@@ -38,6 +42,9 @@
 		let currentInstrument = document.querySelector(`#${currentPiece}`);
 		zone.appendChild(document.querySelector(`#${currentPiece}`));
 		zone.classList.add('hasPiece');
+		information.classList.add("question");  ///////////////
+
+
 	    currentInstrument.classList.add('hasPiece');
 	}
 
@@ -72,6 +79,8 @@
   	for (let i = 0; i < dropZones.length; i++) {
   		const parent = dropZones[i];
   		while (parent.firstChild) {
+			information.classList.remove("question"); //////////////////
+
   			parent.firstChild.remove();
   			parent.classList.remove("hasPiece");
   			parent.classList.remove("playing");
@@ -99,9 +108,12 @@
 	}
 
 	window.addEventListener('load', setInstruments);
+
 	resetButton.addEventListener('click', reset);
 	restartButton.addEventListener('click', restart);
-	instruments.forEach(piece => piece.addEventListener('dragstart', dragStart));	
+
+	instruments.forEach(piece => piece.addEventListener('dragstart', dragStart));
+	
 	dropZones.forEach(zone => zone.addEventListener('dragover', allowDragOver));
 	dropZones.forEach(zone => zone.addEventListener('drop', allowDrop));
 	dropZones.forEach(zone => zone.addEventListener('drop', playSound));

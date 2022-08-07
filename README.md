@@ -24,6 +24,9 @@ bugs, etc… any design improvements that need to be made)
 ![image](https://user-images.githubusercontent.com/97752074/177414292-adba4f8f-7c54-4e8c-81c6-416fb9de9881.png)
 # Sounds
 ![image](https://user-images.githubusercontent.com/97752074/183274544-76907440-35e6-4de0-9766-96ce91bb6539.png)
+# instructions
+![image](https://user-images.githubusercontent.com/97752074/183274560-246fcde6-c2cb-4f88-a2a5-1e53e9df77ab.png)
+
 
 # language used
 css
